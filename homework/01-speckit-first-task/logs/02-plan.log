@@ -1,0 +1,9 @@
+$ cat .specify/feature.json
+{
+  "feature_directory": "homework/01-speckit-first-task/specs/001-llm-provider"
+}
+
+$ bash .specify/scripts/bash/setup-plan.sh --json
+Copied plan template to /Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/plan.md
+{"FEATURE_SPEC":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/spec.md","IMPL_PLAN":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/plan.md","FEATURE_DIR":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider","BRANCH":"001-llm-provider"}
+plan.md lines:      113

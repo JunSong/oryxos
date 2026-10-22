@@ -1,0 +1,8 @@
+$ cp logs/feature.json.before .specify/feature.json
+{
+  "feature_directory": "specs/053-cost-dashboard"
+}
+
+$ git ls-files .specify/feature.json && git diff --stat -- .specify
+.specify/feature.json
+(diff 为空：已还原为原值)

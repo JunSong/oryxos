@@ -1,0 +1,10 @@
+$ bash .specify/scripts/bash/resolve-template.sh spec-template > homework/01-speckit-first-task/specs/001-llm-provider/spec.md
+exit=0 lines=     131
+
+$ SPECIFY_FEATURE_DIRECTORY=homework/01-speckit-first-task/specs/001-llm-provider bash .specify/scripts/bash/check-prerequisites.sh --json --paths-only
+{"REPO_ROOT":"/Users/junsongyoung/mini_workspace/oryxos","BRANCH":"001-llm-provider","FEATURE_DIR":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider","FEATURE_SPEC":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/spec.md","IMPL_PLAN":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/plan.md","TASKS":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider/tasks.md"}
+
+$ cat .specify/feature.json
+{
+  "feature_directory": "specs/053-cost-dashboard"
+}

@@ -1,0 +1,17 @@
+$ bash .specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks
+{"FEATURE_DIR":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider","AVAILABLE_DOCS":["research.md","data-model.md","contracts/","quickstart.md","tasks.md"]}
+
+## 格式校验：每条任务必须匹配 "- [ ] T### [P]? [USn]? 描述"
+tasks=47 malformed=0
+## ID 连续性
+T001..T047 连续
+## 按故事计数
+US1=10
+US2=5
+US3=6
+US4=5
+parallel=28
+## 无路径任务
+none
+## 残留占位符
+homework/01-speckit-first-task/specs/001-llm-provider/checklists/requirements.md:16:- [x] No [NEEDS CLARIFICATION] markers remain

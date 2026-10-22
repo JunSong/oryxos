@@ -1,0 +1,2 @@
+$ bash .specify/scripts/bash/setup-tasks.sh --json
+{"FEATURE_DIR":"/Users/junsongyoung/mini_workspace/oryxos/homework/01-speckit-first-task/specs/001-llm-provider","AVAILABLE_DOCS":["research.md","data-model.md","contracts/","quickstart.md"],"TASKS_TEMPLATE":"/Users/junsongyoung/mini_workspace/oryxos/.specify/templates/tasks-template.md"}
